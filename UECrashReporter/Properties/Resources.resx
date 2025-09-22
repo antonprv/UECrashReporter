@@ -126,7 +126,7 @@
     <comment>The color to use for the embed on Discord</comment>
   </data>
   <data name="DiscordWebhook" xml:space="preserve">
-    <value />
+    <value>https://discord.com/api/webhooks/1419690838375661568/xhN3YLgfiM1FRgNrL8kLT1-2hQsyRTVRgab_CX37kdaffDhlcoDOVd_rYVviMjsSVMD8</value>
     <comment>The Discord webhook to send the crash report to</comment>
   </data>
   <data name="RelativeVersionFilePath" xml:space="preserve">

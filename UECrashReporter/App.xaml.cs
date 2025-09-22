@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Windows;
 
 
@@ -18,7 +19,10 @@ namespace UECrashReporter
             // True if the application was triggered by a crash (rather than an assert)
             bool triggeredByCrash = true;
 
-            foreach(var arg in e.Args)
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => true;
+
+            foreach (var arg in e.Args)
             {
                 if(arg.Contains("-CrashGUID"))
                 {

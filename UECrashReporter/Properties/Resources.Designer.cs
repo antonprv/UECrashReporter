@@ -79,7 +79,7 @@ namespace UECrashReporter.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на https://discord.com/api/webhooks/1419690838375661568/xhN3YLgfiM1FRgNrL8kLT1-2hQsyRTVRgab_CX37kdaffDhlcoDOVd_rYVviMjsSVMD8.
+        ///   Ищет локализованную строку, похожую на .
         /// </summary>
         internal static string DiscordWebhook {
             get {

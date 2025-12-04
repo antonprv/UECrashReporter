@@ -1,4 +1,4 @@
-*Original repository was last updated 5 years ago, so I've decided to fix all of the authors bugs and go on from there. Currently fully working and fixed, might expand on its features in the future.*
+*Original repository was last updated 5 years ago, so I've decided to fix all of the authors' bugs and go on from there. Currently fully working and fixed, might expand on its features in the future.*
 
 # UECrashReporter
  Custom crash reporter, aimed at games made in Unreal Engine.
